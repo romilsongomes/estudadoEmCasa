@@ -12,17 +12,17 @@ import model.operacao;
  * @author romilson gomes
  */
 public class controller {
-    private operacao op = new operacao();
+    private operacao operador = new operacao();
     
     public  float solicitarMediaSalario(float salario){
-        return op.mediaSalario(salario);
+        return operador.mediaSalario(salario);
     }
     
     public float solicitarMediaFilho(float filho){
-        return op.mediaFilho(filho);
+        return operador.mediaFilho(filho);
     }
     
     public float solicitarMaiorSalario(float salario){
-        return op.maiorSalario(salario);
+        return operador.maiorSalario(salario);
     }
 }
